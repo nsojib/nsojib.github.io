@@ -1,0 +1,143 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  /* width: 130px; */
+  /* height: 100%; */
+  
+  width:62.3%;
+  height: auto;
+  
+  position: fixed;
+  z-index: 1; 
+  left: 247px;
+  background: #ffffff;
+  overflow-x: hidden;
+  padding:  0px  0px  0px  0px;
+}
+
+.sidenav a {
+  float: right;
+  padding: 6px 6px 6px  6px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #2196F3;
+  display: block;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  /* float: left; */
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px; 
+}
+
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 900px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+	top: 0px;
+	left: 0px;
+	padding: 18px 30px 10px 30px;
+    position: relative;
+  }
+  .sidenav a {float: left; }
+  #wrapper {margin:0 auto;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+	padding: 5px 0px 5px 0px;
+    float: none;
+  }
+  
+  
+  
+  
+  
+  
+.topnav2 {
+  margin-left: 238px;
+  width:64%;
+  height: 40px;
+  
+  left: 245px;
+  overflow: hidden;
+  background-color: #0000ff; 
+}
+
+.topnav2 a {
+
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav2 a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+
+
+
+
+
+
+nav {
+   height: 70px;
+   line-height: 70px;
+   border: 1px  solid green;
+ }
+
+ nav ul {
+    list-style: none;
+    width: 100%;
+    border: 1px solid red;
+     text-align:right
+ }
+
+nav ul li {
+  display: inline-block;
+  font-size: 60%;
+  margin-right: 0;
+  border : 1px solid yellow;
+ 
+ }  
