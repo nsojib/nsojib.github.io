@@ -3,10 +3,10 @@ body {
   background:#000000 url(bg.jpg) repeat fixed top;
   color:#333333;
   line-height:1.6;
-  font-size:95%;
+  font-size:85%;
   
   font-family: 'ArialMT', 'Arial', sans-serif;
-  font-size: 1em;
+  font-size: 0.95em;
   line-height: 1.6em;
 }
 
@@ -31,8 +31,8 @@ details[open] summary:after {
 h1 {
   color:blue; 
   font-family:Arial;
-  font-size:2.2em;
-  font-weight:400;
+  font-size:1.9em;
+  font-weight:300;
   font-variant:small-caps;
   margin-top:1em;
 }
@@ -43,12 +43,12 @@ h1 {
 }
 
 h2 {
-  padding-left:0.75em;
+  /* padding-left:0.75em; */
   margin-top:0.6em;
   margin-bottom:0em;
   font-weight:400;
-  border-left-style:solid;
-  border-left-width:0.4em;
+  /* border-left-style:solid;
+  border-left-width:0.4em; */
 }
 
 #h21 {
