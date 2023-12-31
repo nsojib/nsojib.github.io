@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Resilient Behavior Cloning"
+date:   2023-12-08 22:21:59 +00:00
+image: /images/dashpoint.png
+categories: Intel 
+---
+I proposed a novel behavioral cloning algorithm that can leverage good part from incorrect demonstration to learn a robust policy.
