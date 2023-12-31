@@ -2,7 +2,7 @@
 layout: post
 title:  "Ribo Robot"
 date:   2017-12-07 22:21:59 +00:00
-image: /images/ribo2.jpg
+image: /images/ribo.jpg
 categories: robot
 website: https://en.wikipedia.org/wiki/Ribo_(robot)
 
