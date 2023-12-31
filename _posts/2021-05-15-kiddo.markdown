@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Kiddo: An educational robot for children"
+date:   2021-05-15 21:21:53 +00:00
+image: /images/kiddobot34.jpg
+categories: CMU 
+author: "Leo Keselman" 
+---
+Simulation and hardware.
+

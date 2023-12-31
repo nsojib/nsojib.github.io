@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Lee: A biped walking robot"
+date:   2021-03-22 21:21:53 +00:00
+image: /images/lee_stand.png
+categories: CMU 
+---
+We developed a low cost full body biped walking robot. 
+[YouTube](https://www.youtube.com/watch?v=9lLmdfZXVnc){:target="_blank"}
