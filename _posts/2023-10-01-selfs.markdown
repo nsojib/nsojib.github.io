@@ -2,7 +2,7 @@
 layout: post
 title:  "Self-Supervised Visual Motor Skills via Neural Radiance Fields"
 date:   2023-10-01 22:21:59 +00:00
-image: /images/3dgaussian.jpg
+image: /images/iros23.jpg
 categories: research
 author: "Noushad Sojib"
 authors: Paul Gesel, <strong>Noushad Sojib</strong>, Momotaz Begum"
