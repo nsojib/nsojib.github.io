@@ -5,7 +5,7 @@ date:   2023-10-01 22:21:59 +00:00
 image: /images/iros2023.png
 categories: research
 author: "Noushad Sojib"
-authors: Paul Gesel, <strong>Noushad Sojib</strong>, Momotaz Begum"
+authors: Paul Gesel, <strong>Noushad Sojib</strong>, Momotaz Begum
 venue: "IROS 2023" 
 ---
 We propose a novel network architecture for visual imitation learning that exploits neural radiance fields (NeRFs) and key-point correspondence for self-supervised visual motor policy learning.

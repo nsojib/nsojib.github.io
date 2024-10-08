@@ -5,7 +5,7 @@ date:   2024-10-01 22:21:59 +00:00
 image: /images/iros2024.jpg
 categories: research
 author: "Noushad Sojib"
-authors: <strong>Noushad Sojib</strong>, Momotaz Begum"
+authors: "<strong>Noushad Sojib</strong>, Momotaz Begum"
 venue: "IROS 2024" 
 ---
 We propose a Behavior Cloning for Error Detection (BED) framework that can detect incorrect human demonstrations in a self-supervised manner. With lay users demonstration we show that using our method robots can learn to avoid unsafe behaviors. We demonstrate the effectiveness of our method in RoboSuite simulation and with a Sawyer robot.
