@@ -2,7 +2,7 @@
 layout: post
 title:  "Self Supervised Detection of Incorrect Human Demonstrations: A Path Toward Safe Imitation Learning by Robots in the Wild"
 date:   2024-10-01 22:21:59 +00:00
-image: /images/iros24.jpg
+image: /images/iros2024.jpg
 categories: research
 author: "Noushad Sojib"
 authors: <strong>Noushad Sojib</strong>, Momotaz Begum"
