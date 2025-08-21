@@ -7,3 +7,13 @@ categories: robot
 ---
 We developed a low cost full body biped walking robot. 
 [YouTube](https://www.youtube.com/watch?v=9lLmdfZXVnc){:target="_blank"}
+
+<!-- We developed a low cost full body biped walking robot. -->
+
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/9lLmdfZXVnc"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
