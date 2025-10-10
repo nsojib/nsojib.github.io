@@ -118,21 +118,31 @@
         <br>
         <br>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Projects</h2>
-              <p>I love learning by doing. 
+              <p>To satisfy curiosity given there was no robot other than what we see in newspaper or Television, I was extremely curios to understand how robot
+                works and to work with them. I was fortunate to work with some other bright people while I was and Undergrade at SUST. We built a series of robots 
+                from basic Line-follower robot to biped walking humanoid robot. Here, are some of them. 
               </p>
             </td>
           </tr>
-        </table>
+        </table> -->
 
         <!-- Robot From Scratch -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Robot From Scratch</h2>
+
+               <p>
+                Driven by curiosity—and the fact that there were no humanoid robots in my country to see in person—I founded 
+                the RoboSUST Robotics Club and led an interdisciplinary team of students from different departments. 
+                Together, we built several robots from scratch, ranging from simple line followers to a walking biped humanoid.
+              </p>
+
+
             </td>
           </tr>
         </table>
@@ -149,10 +159,12 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <!-- <em>{{post.categories}} {{post.course}}</em> -->
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
+              <!-- {{ post.date | date: "%Y-%m-%d" }} -->
+              {{ post.features }} 
+              <br> <br>
+              {{ post.role}}
               <br>
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
@@ -201,12 +213,10 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Hardware Design</h2>
-              <ul>
-                <li>3D Mouse</li>
-                <li>Single Cell Braille</li>
-                <li>Robot Eye</li>
-                <li>Charging Dock</li>
-              </ul>
+              <p>
+                As I pursued my goal of building robots from scratch, 
+                I discovered a passion for designing smart devices—some of which are shown below.
+              </p> 
             </td>
           </tr>
         </table>
@@ -215,7 +225,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' and cat != 'robot' %}
+          {% if cat == 'hardware' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -223,10 +233,12 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <!-- <em>{{post.categories}} {{post.course}}</em> -->
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
+              <!-- {{ post.date | date: "%Y-%m-%d" }} -->
+              {{ post.features }} 
+              <br> <br>
+              {{ post.role}}
               <br>
               {% if post.website %}
               <a href="{{post.website}}">website</a> /

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "3Wheel Mouse"
+date:   2016-05-15 21:21:53 +00:00
+image: /images/mouse3.jpg
+categories: hardware 
+author: "Noushad Sojib" 
+features: "Features: Mouse for visually impaired people." 
+role: "My Role: Design and Prototype"
+
+---
+Outcome: publication and award.
+
+

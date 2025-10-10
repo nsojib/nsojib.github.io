@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Ribo Robot"
+date:   2021-12-07 22:21:59 +00:00
+image: /images/ribo.jpg
+categories: robot
+# website: https://en.wikipedia.org/wiki/Ribo_(robot)
+features: "Features: A 24 DOF humanoid robot with a friendly interface capable of hand and arm manipulation."
+role: "My Role: Team Leader and Programmer."
+--- 
+Outcome: Ribo became one of the first humanoid robots publicly demonstrated in my country. It was showcased at multiple national events, drew strong interest from students and young people, and received wide coverage in newspapers and on television.

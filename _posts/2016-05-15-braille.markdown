@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Lowcost Braille Display"
+date:   2016-05-15 21:21:53 +00:00
+image: /images/4cell4.png
+categories: hardware 
+author: "Noushad Sojib" 
+features: "Features: Braille for visually impaired people." 
+role: "My Role: Design and Prototype"
+
+---
+Outcome: publication.
+
+
+
