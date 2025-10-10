@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chargin Dock"
+title:  "Charging Dock"
 date:   2016-05-15 21:21:53 +00:00
 image: /images/dock.jpg
 categories: hardware 
