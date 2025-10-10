@@ -39,9 +39,9 @@
               </p>
               
               <p>
-                I have completed my undergraduate studies in Computer Science and Engineering from <a href="http://www.sust.edu/">Shahjalal University of Science and Technology</a> where I was fortunate to work with <a href="https://en.wikipedia.org/wiki/Muhammed_Zafar_Iqbal">M. Zafar Iqbal</a>.
-              
-                </br>I enjoy learning challenging things. Recently I learned how to juggle 3 balls and I wish to learn juggling 4 balls.
+                I have completed my undergraduate studies in Computer Science and Engineering from <a href="http://www.sust.edu/">Shahjalal University of Science and Technology</a> where I was fortunate to work with Professor <a href="https://en.wikipedia.org/wiki/Muhammed_Zafar_Iqbal">M. Zafar Iqbal</a>.
+
+                <br>I enjoy learning challenging things. Recently I learned how to juggle 3 balls and I wish to learn juggling 4 balls.
               
               </p>
               <p style="text-align:center">
@@ -128,11 +128,20 @@
           </tr>
         </table>
 
+        <!-- Robot From Scratch -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Robot From Scratch</h2>
+            </td>
+          </tr>
+        </table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'rbc' %}
+          {% if cat == 'robot' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -187,21 +196,26 @@
         <br>
         <br>
 
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- Hardware Design -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Robot from scratch</h2>
-              <p> Hobby projects.  
-              </p>
+              <h2>Hardware Design</h2>
+              <ul>
+                <li>3D Mouse</li>
+                <li>Single Cell Braille</li>
+                <li>Robot Eye</li>
+                <li>Charging Dock</li>
+              </ul>
             </td>
           </tr>
-        </table> -->
+        </table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
+          {% if cat != 'research' and cat != 'Intel' and cat != 'robot' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
