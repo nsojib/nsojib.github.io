@@ -2,7 +2,7 @@
 layout: post
 title:  "Charging Dock"
 date:   2016-05-15 21:21:53 +00:00
-image: /images/dock.jpg
+image: /images/dock.png
 categories: hardware 
 author: "Noushad Sojib" 
 features: "Features: Robust low cost charging dock for mobile robot." 
