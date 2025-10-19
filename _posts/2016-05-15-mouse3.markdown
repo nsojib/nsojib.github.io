@@ -9,6 +9,6 @@ features: "Features: Mouse for visually impaired people."
 role: "My Role: Design and Prototype"
 
 ---
-Outcome: publication and award.
+Outcome: Islam, Md Touhidul, et al. "Wheeler: A three-wheeled input device for usable, efficient, and versatile non-visual interaction." Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology. 2024. [Paper and Video:](https://dl.acm.org/doi/10.1145/3654777.3676396)
 
 

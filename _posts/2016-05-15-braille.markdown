@@ -9,7 +9,7 @@ features: "Features: Braille for visually impaired people."
 role: "My Role: Design and Prototype"
 
 ---
-Outcome: publication.
+Outcome: Sojib, Noushad, and M. Zafar Iqbal. "Single cell bangla braille book reader for visually impaired people." 2018 International Conference on Bangla Speech and Language Processing (ICBSLP). IEEE, 2018. [Paper](https://www.academia.edu/download/98941945/Single_Cell_NS_MZI_ICBSLP_18.pdf)
 
 
 
