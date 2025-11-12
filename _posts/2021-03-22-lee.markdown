@@ -2,7 +2,7 @@
 layout: post
 title:  "Lee: A biped walking robot"
 date:   2021-03-22 21:21:53 +00:00
-image: /images/lee_stand.png
+image: /images/lee.gif
 categories: robot 
 
 features: "Features: Biped walking humanoid robot developed with low costly hardware. " 
