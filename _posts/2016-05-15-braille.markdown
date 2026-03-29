@@ -5,11 +5,11 @@ date:   2016-05-15 21:21:53 +00:00
 image: /images/4cell4.png
 categories: hardware 
 author: "Noushad Sojib" 
-features: "Features: Braille for visually impaired people." 
-role: "My Role: Design and Prototype"
+features: "Low-cost single-cell Braille display that makes digital Bangla text accessible to visually impaired readers."
+role: "Role: Designer & Prototype Builder — published at IEEE ICBSLP 2018"
 
 ---
-Outcome: Sojib, Noushad, and M. Zafar Iqbal. "Single cell bangla braille book reader for visually impaired people." 2018 International Conference on Bangla Speech and Language Processing (ICBSLP). IEEE, 2018. [Paper](https://www.academia.edu/download/98941945/Single_Cell_NS_MZI_ICBSLP_18.pdf)
+Sojib, Noushad, and M. Zafar Iqbal. "Single cell bangla braille book reader for visually impaired people." IEEE ICBSLP 2018. [Paper](https://www.academia.edu/download/98941945/Single_Cell_NS_MZI_ICBSLP_18.pdf)
 
 
 

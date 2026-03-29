@@ -8,4 +8,4 @@ author: "Noushad Sojib"
 authors: "<strong>Noushad Sojib</strong>, Momotaz Begum"
 venue: "IROS 2024" 
 ---
-We propose a Behavior Cloning for Error Detection (BED) framework that can detect incorrect human demonstrations in a self-supervised manner. With lay users demonstration we show that using our method robots can learn to avoid unsafe behaviors. We demonstrate the effectiveness of our method in RoboSuite simulation and with a Sawyer robot.
+Real-world robot learning breaks down when humans give imperfect demonstrations—yet perfect data is rarely available. We present <strong>BED</strong> (Behavior Cloning for Error Detection), a self-supervised framework that automatically identifies and filters out incorrect human demonstrations, enabling robots to learn safe policies from messy, real-world data. Validated in RoboSuite simulation and on a physical Sawyer robot arm.

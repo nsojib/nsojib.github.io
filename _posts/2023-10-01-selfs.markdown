@@ -8,4 +8,4 @@ author: "Noushad Sojib"
 authors: Paul Gesel, <strong>Noushad Sojib</strong>, Momotaz Begum
 venue: "IROS 2023" 
 ---
-We propose a novel network architecture for visual imitation learning that exploits neural radiance fields (NeRFs) and key-point correspondence for self-supervised visual motor policy learning.
+We introduce a NeRF-powered visual imitation learning architecture that learns motor policies in a fully self-supervised manner—no human-labeled training data required. By combining neural radiance fields with key-point correspondence, the system builds rich 3D scene understanding and generalizes robot manipulation skills from raw visual observations.

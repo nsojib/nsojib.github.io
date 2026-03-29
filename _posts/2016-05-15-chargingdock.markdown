@@ -5,11 +5,9 @@ date:   2016-05-15 21:21:53 +00:00
 image: /images/dock.png
 categories: hardware 
 author: "Noushad Sojib" 
-features: "Features: Robust low cost charging dock for mobile robot." 
-role: "My Role: Design and Prototype"
+features: "Robust, low-cost autonomous charging dock for mobile robots—enabling continuous operation without human intervention."
+role: "Role: Designer & Prototype Builder — demonstrated live at IROS 2023, deployed on Hello Stretch"
 
 ---
-Outcome: 
-* Live demonstrated at IROS 2023.. 
-* An extended version is being used with Hello-Stretch robot. [See example](https://robotsforaging.cs.unh.edu/?page_id=4007)
+Live demonstrated at IROS 2023. An extended version is actively used with the Hello Stretch robot. [See example](https://robotsforaging.cs.unh.edu/?page_id=4007)
 

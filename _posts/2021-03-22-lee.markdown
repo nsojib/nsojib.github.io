@@ -5,8 +5,8 @@ date:   2021-03-22 21:21:53 +00:00
 image: /images/lee.gif
 categories: robot 
 
-features: "Features: Biped walking humanoid robot developed with low costly hardware. " 
-role: "My Role: Team Leader and Programmer."
+features: "Full-body biped walking humanoid robot—built with low-cost hardware, custom mechanical design, and from-scratch control software."
+role: "Role: Team Lead & Lead Programmer"
 
 --- 
 [See the baby steps](https://www.youtube.com/watch?v=9lLmdfZXVnc){:target="_blank"}
