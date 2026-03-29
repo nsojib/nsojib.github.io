@@ -8,4 +8,6 @@ author: "Noushad Sojib"
 authors: Paul Gesel, <strong>Noushad Sojib</strong>, Momotaz Begum
 venue: "IROS 2023" 
 ---
-We introduce a NeRF-powered visual imitation learning architecture that learns motor policies in a fully self-supervised manner—no human-labeled training data required. By combining neural radiance fields with key-point correspondence, the system builds rich 3D scene understanding and generalizes robot manipulation skills from raw visual observations.
+**Problem:** Learning visuomotor policies without labeled data.
+**Approach:** Combined NeRF-based scene representation with keypoint correspondence for self-supervised learning.
+**Result:** Learns manipulation skills directly from raw visual input with improved generalization.
