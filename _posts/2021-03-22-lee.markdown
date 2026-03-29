@@ -5,12 +5,13 @@ date:   2021-03-22 21:21:53 +00:00
 image: /images/lee.gif
 categories: robot 
 
-features: "Full-body biped walking humanoid robot—built with low-cost hardware, custom mechanical design, and from-scratch control software."
-role: "Role: Team Lead & Lead Programmer"
+features: "Built a biped robot focused on achieving stable walking with minimal hardware cost."
+role: "Role: Team Lead — mechanical design, gait control, and software"
 
 --- 
-[See the baby steps](https://www.youtube.com/watch?v=9lLmdfZXVnc){:target="_blank"}
-<!-- We developed a low cost full body biped walking robot. -->
+**Key Contributions:** Designed mechanical structure for balance and locomotion. Implemented basic gait generation and control. Optimized for low-cost components and accessibility.
+
+**Impact:** Demonstrated feasibility of biped locomotion under resource constraints. Early platform for experimenting with control and stability.
 
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/9lLmdfZXVnc"

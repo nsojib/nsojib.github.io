@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Ribo Robot"
+title:  "Ribo — 24 DOF Humanoid Robot"
 date:   2021-12-07 22:21:59 +00:00
 image: /images/ribo.jpg
 categories: robot
 # website: https://en.wikipedia.org/wiki/Ribo_(robot)
-features: "24 DOF humanoid robot with a conversational interface and upper-body manipulation capability—one of the first publicly demonstrated humanoid robots in Bangladesh."
-role: "Role: Team Lead & Lead Programmer"
+features: "Designed and built a full humanoid robot capable of upper-body manipulation and human-interactive behaviors."
+role: "Role: Team Lead — hardware, software, and interaction interface"
 --- 
-Ribo was showcased at multiple national events across Bangladesh, drawing wide coverage in print and broadcast media and inspiring a new generation of robotics enthusiasts.
+**Key Contributions:** Led hardware and software development of a 24 DOF humanoid platform. Implemented control for coordinated arm and hand motion. Designed user-facing interaction interface.
+
+**Impact:** One of the first publicly demonstrated humanoid robots in Bangladesh. Showcased at national events with broad media coverage. Inspired student-led robotics initiatives across the country.
