@@ -2,14 +2,14 @@
 layout: post
 title:  "Lee: A biped walking robot"
 date:   2021-03-22 21:21:53 +00:00
-image: /images/lee.gif
+image: /images/lee_gif.gif
 categories: robot 
 
 features: "Built a biped robot focused on achieving stable walking with minimal hardware cost."
 role: "Role: Team Lead — mechanical design, gait control, and software"
 
 --- 
-**Key Contributions:** Designed mechanical structure for balance and locomotion. Implemented basic gait generation and control. Optimized for low-cost components and accessibility.
+**Key Contributions:** Designed mechanical structure for balance and locomotion. Implemented basic gait generation and control. Optimized for low-cost components.
 
 **Impact:** Demonstrated feasibility of biped locomotion under resource constraints. Early platform for experimenting with control and stability.
 
