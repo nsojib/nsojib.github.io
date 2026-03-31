@@ -96,14 +96,18 @@
               </div>
               <h3>Real-World Robot Learning with Diffusion Policies and VLA Models</h3>
               <br>
-              <ul style="margin-top:8px;margin-bottom:0;padding-left:18px;">
-                <li>Implemented Diffusion Policy from scratch for educational clarity and experimentation. <a href="https://github.com/nsojib/diffusion_policy_edu" target="_blank">GitHub</a></li>
-                <li>Experimented with <strong>RoboSuite</strong>, <strong>Robomimic</strong>, <strong>Libero</strong>, and real <strong>Franka</strong> and <strong>Sawyer</strong> robot platforms.</li>
-                <li>Fine-tuned <strong>π0.5</strong>, <strong>Groot N1.5</strong>, and <strong>OpenVLA</strong> on custom simulation and real-robot tasks.</li>
-                <li>Developed an easy-to-use data collection interface using an Android phone. <a href="https://github.com/AssistiveRoboticsUNH/sixdof" target="_blank">GitHub</a></li>
-                <li>Created a behavior cloning tutorial covering state-based and image-based policies for beginners. <a href="https://github.com/AssistiveRoboticsUNH/bc_tutorial" target="_blank">GitHub</a></li>
-                <li>Created a VLA getting-started tutorial. <a href="https://github.com/nsojib/vla-getting-started" target="_blank">GitHub</a></li>
-                <li>Real robot experiments: coffee making, eggplant-drawer, spoon pick-place, and microwave-open tasks.</li>
+              <p>Training robot manipulation policies from noisy human demonstrations using diffusion and VLA models.</p>
+              <strong>What I did:</strong>
+              <ul style="margin-top:4px;margin-bottom:8px;padding-left:18px;">
+                <li>Implemented Diffusion Policy from scratch for educational clarity. <a href="https://github.com/nsojib/diffusion_policy_edu">GitHub</a></li>
+                <li>Trained and fine-tuned policies using Diffusion Policy, π0.5, and OpenVLA</li>
+                <li>Designed a frequency-domain (FFT-based) filtering method to identify and remove low-quality demonstrations</li>
+                <li>Collected data over 30 non-expert people using both simulation and real robots</li>
+              </ul>
+              <strong>Results:</strong>
+              <ul style="margin-top:4px;margin-bottom:0;padding-left:18px;">
+                <li>~300× faster demonstration quality estimation compared to prior methods</li>
+                <li>Improved policy performance after filtering low-quality data</li>
               </ul>
             </td>
           </tr>
