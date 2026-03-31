@@ -95,8 +95,8 @@
                 <li>Implemented Diffusion Policy from scratch for educational clarity. <a href="https://github.com/nsojib/diffusion_policy_edu">GitHub</a></li>
                 <li>Trained and fine-tuned policies using Diffusion Policy, π0.5, and OpenVLA</li>
                 <li>Designed a frequency-domain (FFT-based) method to detect and remove low-quality demonstrations (~300× faster than prior work)</li>
-                <li>Collected over 1000 demonstrations data over 30 non-expert people using both simulation and real robots</li>
-                <li>Developed an easy-to-use data collection interface using an Android phone. <a href="https://github.com/AssistiveRoboticsUNH/sixdof">GitHub</a></li>
+                <li>Collected 1,000+ demonstrations from 30 non-expert users across simulation and real robots</li>
+
                 <li>Created a behavior cloning tutorial (<a href="https://github.com/AssistiveRoboticsUNH/bc_tutorial">GitHub</a>) and VLA getting-started tutorial. (<a href="https://github.com/nsojib/vla-getting-started">GitHub</a>)</li>
 
               </ul>
@@ -113,9 +113,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Robot From Scratch</h2>
               <p>
-                I started building robots from scratch out of curiosity—there were no humanoid platforms available to learn
-                from where I grew up. This led me to found <a href="https://www.linkedin.com/company/robosust/" target="_blank"><strong>RoboSUST</strong></a>, where I led a team to design, build,
-                and deploy multiple robotic systems using low-cost hardware and self-developed control pipelines.
+                Limited access to robotic platforms led me to build robots from scratch and found <a href="https://www.linkedin.com/company/robosust/" target="_blank"><strong>RoboSUST</strong></a>, where I led the design and deployment of low-cost robotic systems.
               </p>
             </td>
           </tr>
@@ -227,6 +225,7 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
+              {% if post.paper %}<a href="{{post.paper}}">paper</a> / {% endif %}
               {% if post.arxiv %}<a href="{{post.arxiv}}">arxiv</a> / {% endif %}
               {% if post.video %}<a href="{{post.video}}">video</a> / {% endif %}
               {% if post.code %}<a href="{{post.code}}">code</a> / {% endif %}
