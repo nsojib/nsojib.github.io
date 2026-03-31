@@ -7,6 +7,8 @@ categories: robot
 # website: https://en.wikipedia.org/wiki/Ribo_(robot)
 features: "Designed and built a full humanoid robot capable of upper-body manipulation and human-interactive behaviors."
 role: "Role: Team Lead — hardware, software, and interaction interface"
+publication: "IEEE R10-HTC 2017"
+paper: "https://doi.org/10.1109/R10-HTC.2017.8288964"
 --- 
 **Key Contributions:** Led hardware and software development of a 24 DOF humanoid platform. Implemented control for coordinated arm and hand motion. Designed user-facing interaction interface.
 

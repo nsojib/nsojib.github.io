@@ -98,7 +98,11 @@
                 <li>Collected 1,000+ demonstrations from 30 non-expert users across simulation and real robots</li>
 
                 <li>Created a behavior cloning tutorial (<a href="https://github.com/AssistiveRoboticsUNH/bc_tutorial">GitHub</a>) and VLA getting-started tutorial. (<a href="https://github.com/nsojib/vla-getting-started">GitHub</a>)</li>
-
+              </ul>
+              <strong>Publications:</strong>
+              <ul style="margin-top:4px;margin-bottom:0;padding-left:18px;">
+                <li>Self Supervised Detection of Incorrect Human Demonstrations — <a href="https://ieeexplore.ieee.org/iel8/10801246/10801290/10802106.pdf">IROS 2024</a></li>
+                <li>Self-Supervised Visual Motor Skills via Neural Radiance Fields — <a href="https://ieeexplore.ieee.org/iel7/9193852/9199230/09199254.pdf">IROS 2023</a></li>
               </ul>
             </td>
           </tr>
@@ -134,8 +138,8 @@
               <br><br>
               {{ post.role}}
               <br>
+              {% if post.publication %}Publication at <a href="{{post.paper}}">{{post.publication}}</a> / {% endif %}
               {% if post.website %}<a href="{{post.website}}">website</a> / {% endif %}
-              {% if post.paper %}<a href="{{post.paper}}">paper</a> / {% endif %}
               {% if post.video %}<a href="{{post.video}}">video</a> / {% endif %}
               {% if post.video2 %}<a href="{{post.video2}}">video #2</a> / {% endif %}
               {% if post.code %}<a href="{{post.code}}">code</a> / {% endif %}
@@ -157,9 +161,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Hardware Design</h2>
               <p>
-                Building robots from scratch taught me that good software needs good hardware.
-                Along the way, I designed several embedded devices—a few of which landed in peer-reviewed venues
-                and are now in active use on research robots.
+                Experience building robots from scratch led me to design embedded systems that support reliable deployment, with multiple systems published and used on research platforms.
               </p>
             </td>
           </tr>
@@ -197,45 +199,6 @@
         <br>
         <br>
 
-        <!-- Research / Publications -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.paper %}<a href="{{post.paper}}">paper</a> / {% endif %}
-              {% if post.arxiv %}<a href="{{post.arxiv}}">arxiv</a> / {% endif %}
-              {% if post.video %}<a href="{{post.video}}">video</a> / {% endif %}
-              {% if post.code %}<a href="{{post.code}}">code</a> / {% endif %}
-              {% if post.poster %}<a href="{{post.poster}}">poster</a> / {% endif %}
-              {% if post.slides %}<a href="{{post.slides}}">slides</a> / {% endif %}
-              {% if post.website %}<a href="{{post.website}}">website</a> / {% endif %}
-              {% if post.youtube %}<a href="{{post.youtube}}">youtube</a> / {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
