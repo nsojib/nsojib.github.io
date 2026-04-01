@@ -7,6 +7,7 @@ categories: hardware
 author: "Noushad Sojib" 
 features: "Robust, low-cost autonomous charging dock for mobile robots—enabling continuous operation without human intervention."
 role: "Role: Designer & Prototype Builder — demonstrated live at IROS 2023, deployed on Hello Stretch"
+code: "https://github.com/AssistiveRoboticsUNH/charging_dock"
 
 ---
 Live demonstrated at IROS 2023. An extended version is actively used with the Hello Stretch robot. [See example](https://robotsforaging.cs.unh.edu/?page_id=4007)
